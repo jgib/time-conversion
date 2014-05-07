@@ -26,7 +26,6 @@ sub sec_to_time{
         return "$hour:$min:$sec";
 }
 
-
 sub time_to_sec{
         $time = $_[0];
         if($time =~ m/^(\d{2}):(\d{2}):(\d{2})$/){
